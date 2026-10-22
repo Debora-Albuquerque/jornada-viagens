@@ -25,6 +25,7 @@
 }
 
 .offers-cards .card header p {
+.card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
 }
