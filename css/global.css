@@ -43,7 +43,7 @@ body {
   color: var(--text-primary-color);
 }
 
-.section {
+section {
   width: 312px;
   margin: 0 auto 88px;
 }
@@ -74,6 +74,17 @@ section.button-hero{
   margin: 16px auto 32px;
 }
 
+.content-title{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+.content-title{
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .button {
   min-width: 280px;
   height: 64px;
@@ -89,12 +100,11 @@ section.button-hero{
 }
 
 @media screen and (min-width: 768px) {
-  .section {
+  section {
     width: 648px;
   }
   .section-title{
     width: 100%;
-    margin: 0 auto;
   }
   .section-title h2 {
     font-size: 32px;
