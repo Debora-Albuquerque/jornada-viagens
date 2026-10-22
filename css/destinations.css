@@ -5,6 +5,10 @@
   gap: 24px;
 }
 
+.destinations .item{
+  margin-bottom: 32px;
+}
+
 .destinations .item .img-item {
   width: 100%;
   height: 368px;
