@@ -42,10 +42,13 @@
   display: inline-block;
 }
 
-.offers-cards .card.japao {
-  background: url(../img/bg-card-japao.jpg) no-repeat;
+.offers-cards .japao {
+  background-image: url("../img/bg-card-japao.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-color: transparent;
 }
+
 
 .offers-cards .card.san-andreas {
   background: url(../img/bg-card-san-andreas.jpg) no-repeat;
